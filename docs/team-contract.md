@@ -1,31 +1,33 @@
 # Team Contract
 
 **Course:** Building AI-Powered Applications  
-**Team Name:** [Your Team Name]  
-**Project:** [Your Project Title]  
-**Date:** [Date]
+**Team Name:** Synapse Squad 
+**Project:** Capstone Project 
+**Date:** 10/10/25
 
 ---
 
 ## Team Members
 
-| Name | Email | GitHub Username | Primary Role |
-|------|-------|-----------------|--------------|
-| [Name 1] | [email] | [@username] | [e.g., Backend Lead] |
-| [Name 2] | [email] | [@username] | [e.g., Frontend Lead] |
-| [Name 3] | [email] | [@username] | [e.g., AI Integration] |
+| Name          | Email                             | GitHub Username | Primary Role |
+|---------------|-----------------------------------|-----------------|--------------|
+| Anano Kutchava | Kuchava.Anano@kiu.edu.ge          | xranano         | Backend Lead |
+| Ana Maisuradze | Maisuradze.Ana@kiu.edu.ge         | anamaisuradze01 | Frontend Lead |
+| Lekso Potskhverashvuli        | Potskhverashvili.Lekso@kiu.edu.ge | [@username]     | AI Integration |
 
 ---
 
 ## Team Mission & Goals
 
 **Our Mission:**  
-[1-2 sentences describing what you want to achieve together]
+To design and build an AI-powered application that solves a real-world problem through innovation, collaboration, and ethical use of artificial intelligence.
 
 **Our Goals for This Semester:**  
-1. [Specific, measurable goal 1]  
-2. [Specific, measurable goal 2]  
-3. [Specific, measurable goal 3]
+1. Develop and deploy a fully functional AI-powered prototype that demonstrates meaningful real-world impact by the end of the semester.
+
+2. Implement and evaluate at least two core AI models or features (e.g., NLP, computer vision, recommendation system) with measurable accuracy and performance metrics.
+
+3. Document and present the entire development process, including research, design, testing, and evaluation, in a professional final report and presentation.
 
 ---
 
@@ -33,26 +35,26 @@
 
 ### Primary Roles
 
-**[Team Member 1] - [Role Title]**
+**Anano Kutchava - Backend Lead**
 - Responsibilities:
-  - [Specific responsibility 1]
-  - [Specific responsibility 2]
-  - [Specific responsibility 3]
+  - Design and implement the server-side architecture and database schema.
+  - Integrate APIs and ensure secure, efficient data flow between frontend and AI modules.
+  - Manage backend deployment, scalability, and system reliability.
 - Accountable for: [What they're ultimately responsible for]
 
-**[Team Member 2] - [Role Title]**
+**Ana Maisuradze – Frontend Lead**
 - Responsibilities:
-  - [Specific responsibility 1]
-  - [Specific responsibility 2]
-  - [Specific responsibility 3]
-- Accountable for: [What they're ultimately responsible for]
+  - Design and develop the user interface using modern frameworks and responsive design principles.
+  - Integrate frontend components with backend and AI services.
+  - Ensure a seamless and intuitive user experience through usability testing and iteration.
+- Accountable for: Delivering a polished, user-friendly, and fully functional frontend application.
 
-**[Team Member 3] - [Role Title]** (if applicable)
+**Lekso Potskhverashvuli – AI Integration Lead** (if applicable)
 - Responsibilities:
-  - [Specific responsibility 1]
-  - [Specific responsibility 2]
-  - [Specific responsibility 3]
-- Accountable for: [What they're ultimately responsible for]
+  - Research, develop, and train AI models relevant to the project’s problem space.
+  - Integrate AI components with the backend and optimize model performance.
+  - Evaluate model accuracy, fairness, and efficiency through testing and metrics analysis.
+- Accountable for: Delivering high-performing, well-integrated AI functionality that enhances the application’s core features.
 
 ### Shared Responsibilities
 
@@ -62,33 +64,31 @@ All team members are equally responsible for:
 - [ ] Communicating blockers early
 - [ ] Code reviews and testing
 - [ ] Documentation
-- [ ] [Add other shared responsibilities]
 
 ---
 
 ## Communication Plan
 
 ### Primary Communication Channel
-**Platform:** [e.g., Discord, Slack, WhatsApp, Telegram]  
-**Expected Response Time:** [e.g., Within 24 hours on weekdays, 48 hours on weekends]
+**Platform:** WhatsApp
+**Expected Response Time:** Within 8 hours on weekdays, 10 hours on weekends
 
 ### Meetings
 
 **Regular Team Meetings:**
-- **Frequency:** [e.g., Twice per week]
-- **Days/Times:** [e.g., Tuesdays 6pm, Saturdays 2pm]
-- **Duration:** [e.g., 1 hour]
-- **Location/Platform:** [e.g., In-person at library / Zoom link]
+- **Frequency:** Once per week
+- **Days/Times:** Mondays at 6:00 PM
+- **Duration:** 30 min
+- **Location/Platform:** Google Meets
 
 **Meeting Norms:**
 - [ ] Everyone comes prepared with updates
 - [ ] Rotate note-taking responsibility
 - [ ] Start and end on time
-- [ ] Agenda posted 24 hours before meeting
-- [ ] [Add other norms]
+- [ ] Agenda posted 12 hours before meeting
 
 **If Someone Can't Attend:**
-- Notify team at least [X] hours in advance
+- Notify team at least 12 hours in advance
 - Review meeting notes within 24 hours
 - Complete any assigned action items
 
@@ -100,48 +100,48 @@ All team members are equally responsible for:
 
 **Version Control:**  
 - Platform: GitHub
-- Branch Strategy: [e.g., main + feature branches, dev branch + PRs]
-- Commit Message Format: [e.g., "feat: add user auth", "fix: resolve API timeout"]
+- Branch Strategy: main + feature branches, dev branch + PRs
+- Commit Message Format: "fix: resolve API timeout"
 
 **Code Review Process:**  
-- [ ] All PRs require at least [1/2] approval(s)
-- [ ] PRs should be reviewed within [24/48] hours
+- [ ] All PRs require at least 2 approval(s)
+- [ ] PRs should be reviewed within 24 hours
 - [ ] Include tests with new features
 - [ ] Update documentation for significant changes
 
 **Task Management:**  
-- Platform: [e.g., GitHub Issues, Trello, Notion]
-- Task Assignment: [e.g., Self-assign during meetings, rotated by lead]
-- Status Updates: [e.g., Daily standups in Slack, weekly syncs]
+- Platform: GitHub Issues
+- Task Assignment: Self-assign during meetings
+- Status Updates: weekly syncs
 
 ### Contribution Tracking
 
 We will track contributions through:
 - [ ] GitHub commit history and PR contributions
-- [ ] Task completion in [project management tool]
+- [ ] Task completion in GitHub
 - [ ] Weekly progress reports (rotating responsibility)
 - [ ] Peer evaluation forms (mid-term and final)
 
 **Expected Contribution:**  
-Each team member should contribute approximately [X] hours per week.
+Each team member should contribute approximately 8 hours per week.
 
 ---
 
 ## Decision-Making Process
 
 ### Routine Decisions
-- Method: [e.g., Majority vote, consensus, assigned owner decides]
-- Timeline: [e.g., Decided within 24 hours]
+- Method: Majority vote
+- Timeline: Decided within 24 hours
 
 ### Major Decisions
-- Method: [e.g., Unanimous agreement required, or 2/3 majority with 24-hour notice]
-- Timeline: [e.g., Discuss in team meeting, decide within one week]
-- Documentation: [e.g., Record in decision-log.md file]
+- Method: 2/3 majority with 24-hour notice
+- Timeline: Discuss in team meeting
+- Documentation: Record in decision-log.md
 
 ### If We Can't Agree:
-1. [e.g., Take 24 hours to research and present arguments]
-2. [e.g., Vote with majority rule]
-3. [e.g., If still stuck, consult instructor]
+1. Take 24 hours to research and present arguments.
+2. Vote with majority rule
+3. If still stuck, consult instructor
 
 ---
 
@@ -167,24 +167,24 @@ Each team member should contribute approximately [X] hours per week.
 ### Common Issues & Agreed Solutions
 
 **If someone misses a deadline:**  
-- [e.g., Team checks in 24 hours before deadline to catch issues early]
-- [e.g., Missing member makes up work within 48 hours or next task is reassigned]
+- Team checks in 24 hours before deadline to catch issues early
+- Missing member makes up work within 48 hours or next task is reassigned
 
 **If someone isn't responding to communications:**  
-- [e.g., After 48 hours, escalate to emergency contact or instructor]
+- After 48 hours, escalate to emergency contact or instructor
 
 **If workload feels unequal:**  
-- [e.g., Review contribution logs at weekly meeting, rebalance if needed]
+- Review contribution logs at weekly meeting, rebalance if needed
 
 **If technical disagreement arises:**  
-- [e.g., Prototype both approaches, test, then decide based on metrics]
+- Prototype both approaches, test, then decide based on metrics
 
 ---
 
 ## Quality Standards
 
 ### Code Quality
-- [ ] Follows [language] style guide (e.g., PEP 8 for Python, Airbnb for JS)
+- [ ] Follows PEP 8 style guide
 - [ ] Includes docstrings/comments for complex logic
 - [ ] Passes linting checks
 - [ ] Has unit tests for core functionality
@@ -276,36 +276,24 @@ This contract can be amended with:
 - [ ] Documentation of what changed and why
 - [ ] Updated version committed to repo with new date
 
-**Amendment History:**  
-- [Date]: [Brief description of change]
-
+**Amendment History:**
+- 2025-10-10:	Initial version of team mission, goals, and roles added	Anano Kutchava
+- 2025-10-15:	Updated project scope and AI model details	Lekso Potskhverashvuli
+- 2025-10-20:	Revised frontend responsibilities	Ana Maisuradze
 ---
 
 ## Signatures
 
 By signing below, we agree to uphold this contract and work together professionally and respectfully.
 
-**[Team Member 1 Name]**  
+**Anano Kutchava**  
+Signature: Anano Kutchava  Date: 10/10/25
+
+**Ana Maisuradze**  
+Signature: Ana Maisuradze  Date: 10/10/25
+
+**Lekso Potskhverashvili** 
 Signature: ___________________________  Date: _______________
-
-**[Team Member 2 Name]**  
-Signature: ___________________________  Date: _______________
-
-**[Team Member 3 Name]** (if applicable)  
-Signature: ___________________________  Date: _______________
-
----
-
-## For Digital Signatures
-
-If signing digitally, each team member should:
-1. Type their full name below
-2. Add the date
-3. Commit this file with a commit message: "Sign team contract - [Your Name]"
-
-- **[Name]** agreed on [Date]
-- **[Name]** agreed on [Date]
-- **[Name]** agreed on [Date]
 
 ---
 
