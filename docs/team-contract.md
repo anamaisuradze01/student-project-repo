@@ -13,7 +13,7 @@
 |---------------|-----------------------------------|-----------------|--------------|
 | Anano Kutchava | Kuchava.Anano@kiu.edu.ge          | xranano         | Backend Lead |
 | Ana Maisuradze | Maisuradze.Ana@kiu.edu.ge         | anamaisuradze01 | Frontend Lead |
-| Lekso Potskhverashvuli        | Potskhverashvili.Lekso@kiu.edu.ge | [@username]     | AI Integration |
+| Lekso Potskhverashvuli        | Potskhverashvili.Lekso@kiu.edu.ge | Lekso111     | AI Integration |
 
 ---
 
