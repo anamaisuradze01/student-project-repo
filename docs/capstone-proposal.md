@@ -1,9 +1,9 @@
 # Capstone Proposal
 
 **Course:** Building AI-Powered Applications  
-**Team Name:** [Your Team Name]  
-**Project Title:** [Your Project Title]  
-**Date:** [Submission Date]
+**Team Name:** Synapse Squad  
+**Project Title:** AI-Powered CV Generator Assistant  
+**Date:** 17.10.2025
 
 ---
 
@@ -11,33 +11,28 @@
 
 ### The Problem
 
-[2-3 paragraphs describing the problem you're solving]
+Creating an effective and professional CV is a major challenge for students and early-career professionals. Many struggle to present their achievements clearly, use the right tone, or tailor their experience to specific job descriptions. The tools most people rely on — static Word templates or basic online CV builders — often produce generic, one-size-fits-all results that fail to stand out.
 
-**Questions to answer:**
-- What specific problem are you addressing?
-- Who currently experiences this problem?
-- What are the current solutions (if any) and why are they inadequate?
-- Why does this problem matter?
-- What makes this problem suitable for an AI-powered solution?
+As a result, users spend hours editing their CVs manually, uncertain whether their formatting, keywords, or structure meet modern hiring standards like Applicant Tracking Systems (ATS). This frustration often leads to missed opportunities and reduced confidence in job applications.
 
-**Example Structure:**
-"Many students struggle with [specific problem]. Currently, they [how they deal with it now], which leads to [negative outcomes]. This problem affects [number/type of people] and costs them [time/money/frustration]. An AI-powered solution could [how AI specifically helps] by [concrete mechanism]."
+Our AI-Powered CV Generator Assistant aims to solve this problem by using intelligent text generation and adaptive templates. It helps users instantly create polished, tailored CVs optimized for each job description — saving time, improving quality, and increasing their chances of success in the hiring process.
 
 ---
 
 ### Scope
 
 **What's In Scope:**
-- [Feature/capability 1]
-- [Feature/capability 2]
-- [Feature/capability 3]
+- AI-powered CV text generation (summary, experience, skills sections)
+- Job-specific tailoring based on job description input
+- Modern, exportable CV templates (PDF/Word)
+- Editing and version history for multiple CVs
 
 **What's Out of Scope (but maybe future work):**
-- [Thing you won't do 1]
-- [Thing you won't do 2]
+- Full portfolio or cover letter generator
+- Job search or application tracking features
 
 **Why This Scope Makes Sense:**
-[1-2 sentences justifying your chosen scope for a semester project]
+These core features can be built and evaluated within a semester while clearly showcasing AI text generation, structured output, and user interface design.
 
 ---
 
@@ -45,38 +40,31 @@
 
 ### Primary User Persona
 
-**User Type:** [e.g., Undergraduate students, small business owners, content creators]
+**User Type:** Everyone
 
 **Demographics:**
-- Age range: [e.g., 18-24]
-- Technical proficiency: [e.g., Comfortable with web apps, but not developers]
-- Context of use: [e.g., Mobile-first, using during commute]
+- Age range: 17-*
+- Technical proficiency: Comfortable with web apps but not developers
+- Context of use: Desktop-first web application, used before applying for jobs or internships
 
 **User Needs:**
-1. **Need #1:** [Specific need]
-   - Why it matters: [Impact on user]
-   - Current workaround: [What they do now]
+1. **Need #1:** Generate a professional CV quickly
+   - Why it matters: Saves time during job application periods
+   - Current workaround: Editing Word templates manually
 
-2. **Need #2:** [Specific need]
-   - Why it matters: [Impact on user]
-   - Current workaround: [What they do now]
+2. **Need #2:** Tailor CV to a specific job posting
+   - Why it matters: Increases hiring chances
+   - Current workaround: Manually rewriting sections for each role
 
-3. **Need #3:** [Specific need]
-   - Why it matters: [Impact on user]
-   - Current workaround: [What they do now]
+3. **Need #3:** Improve language and presentation quality
+   - Why it matters: Many non-native English speakers struggle with tone and
+   - Current workaround: Asking friends or ChatGPT informally
 
 **User Pain Points:**
-- [Specific frustration 1]
-- [Specific frustration 2]
-- [Specific frustration 3]
+- Difficulty choosing what to include/exclude
+- Poor formatting or inconsistent structure
+- Uncertainty about how to highlight achievements effectively
 
----
-
-### Secondary Users (Optional)
-
-[If applicable, describe other types of users who might interact with your system]
-
----
 
 ## 3. Success Criteria
 
@@ -84,636 +72,290 @@
 
 **How we'll know our solution works:**
 
-1. **Metric #1:** [e.g., Task completion time]
-   - Target: [e.g., Reduce from 10 minutes to <2 minutes]
-   - Measurement method: [e.g., Time users from task start to completion]
+1. **Metric #1:** Task completion time
+   - Target: Reduce from 30 → <5 minutes
+   - Measurement method: User task timing
 
-2. **Metric #2:** [e.g., Accuracy/Quality]
-   - Target: [e.g., 90% of outputs rated "helpful" or "very helpful" by users]
-   - Measurement method: [e.g., Post-task survey with 5-point scale]
+2. **Metric #2:** Output helpfulness
+   - Target: 90% rated “helpful” or “very helpful”
+   - Measurement method: Post-task survey
 
-3. **Metric #3:** [e.g., User satisfaction]
-   - Target: [e.g., NPS score >50, or 4/5 average rating]
-   - Measurement method: [e.g., Exit survey]
+3. **Metric #3:** User satisfaction
+   - Target: ≥4/5 average
+   - Measurement method: Exit survey
 
-4. **Metric #4:** [e.g., Adoption/Engagement]
-   - Target: [e.g., 5 active users with 3+ sessions each]
-   - Measurement method: [e.g., Usage analytics]
+4. **Metric #4:** Engagement
+   - Target: ≥5 active testers use app 3+ times
+   - Measurement method: Usage analytics
 
-5. **Metric #5:** [e.g., Cost efficiency]
-   - Target: [e.g., <$0.10 per user interaction]
-   - Measurement method: [e.g., API cost tracking]
+5. **Metric #5:** Cost efficiency
+   - Target: <$0.10 per generated CV
+   - Measurement method: API cost logs
 
 ---
 
 ### Technical Success Criteria
 
 **Minimum viable performance:**
-- Response latency: [e.g., <3 seconds p95]
-- Availability: [e.g., 95% uptime during testing period]
-- Error rate: [e.g., <5% of requests fail]
-- Cost per user: [e.g., <$X per session]
+- Response latency: <4s per generation (p95)
+- Availability: 95% uptime
+- Error rate: <5% failed requests
+- Cost per user: <$0.10/session
 
 ---
 
-### Learning Goals
-
-**What each team member wants to learn:**
-
-**[Team Member 1]:**
-- [Specific skill/technology 1]
-- [Specific skill/technology 2]
-
-**[Team Member 2]:**
-- [Specific skill/technology 1]
-- [Specific skill/technology 2]
-
-**[Team Member 3]:** (if applicable)
-- [Specific skill/technology 1]
-- [Specific skill/technology 2]
-
----
-
-## 4. Technical Architecture
-
-### System Overview
-
-[1-2 paragraph high-level description of how your system works]
-
-**Example:**
-"Our system consists of a Next.js frontend that captures user input, sends it to a FastAPI backend, which orchestrates calls to OpenAI's GPT-4 API and a Pinecone vector database for retrieval. Results are streamed back to the user with citations."
-
----
-
-### Architecture Diagram
-
-[Insert diagram here - use draw.io, Excalidraw, Mermaid, or similar]
-
-```
-[Paste ASCII diagram or link to image file]
-```
-
-**Example:**
-```
-┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-│   User      │─────▶│   Frontend  │─────▶│   Backend   │
-│  (Browser)  │◀─────│  (Next.js)  │◀─────│  (FastAPI)  │
-└─────────────┘      └─────────────┘      └─────────────┘
-                                                  │
-                                     ┌────────────┼────────────┐
-                                     ▼            ▼            ▼
-                              ┌──────────┐ ┌──────────┐ ┌──────────┐
-                              │ OpenAI   │ │ Pinecone │ │PostgreSQL│
-                              │   API    │ │  Vector  │ │   DB     │
-                              └──────────┘ └──────────┘ └──────────┘
-```
-
----
-
-### Technology Stack
-
-**Frontend:**
-- Framework: [e.g., Next.js 14, React, vanilla JS]
-- Key libraries: [e.g., TailwindCSS, Recharts]
-- Hosting: [e.g., Vercel, Netlify]
-
-**Backend:**
-- Framework: [e.g., FastAPI, Flask, Express]
-- Language: [e.g., Python 3.11, TypeScript]
-- Hosting: [e.g., Render, Railway, local]
-
-**AI/ML Services:**
-- Primary model: [e.g., GPT-4o, Claude Sonnet 3.5]
-- Fallback model: [e.g., GPT-3.5-turbo]
-- Other AI services: [e.g., OpenAI Embeddings, Whisper, DALL-E 3]
-
-**Data Storage:**
-- Database: [e.g., PostgreSQL, SQLite]
-- Vector store: [e.g., FAISS, Pinecone, pgvector]
-- Object storage: [e.g., Cloudinary, S3]
-
-**DevOps/Tooling:**
-- Version control: GitHub
-- CI/CD: [e.g., GitHub Actions, none yet]
-- Monitoring: [e.g., Sentry, custom logging]
-- Testing: [e.g., pytest, Jest]
-
----
-
-### Data Flow
-
-**Example Flow: User Query → AI Response**
-
-1. User enters query in frontend
-2. Frontend validates input and shows loading state
-3. Request sent to `/api/query` endpoint
-4. Backend:
-   - Sanitizes input (check for prompt injection)
-   - Generates embedding of query
-   - Searches vector DB for relevant context (top 5 results)
-   - Constructs prompt with retrieved context
-   - Calls OpenAI API with prompt
-   - Streams response back to frontend
-   - Logs latency, cost, and user feedback
-5. Frontend displays response with citations
-
-**Critical Path Latency Budget:**
-- Frontend validation: <100ms
-- Backend processing: <500ms
-- Vector search: <300ms
-- LLM generation: <3000ms
-- **Total target: <4 seconds**
-
----
-
-### AI Integration Details
-
-**Model Selection:**
-- **Primary use case:** [e.g., Text generation, classification, embedding]
-- **Model choice:** [e.g., GPT-4o]
-- **Why this model:** [e.g., Good balance of quality and cost, supports streaming]
-
-**Prompt Strategy:**
-- Template: [Describe your prompt structure]
-- Context length: [e.g., Max 4000 tokens]
-- Temperature: [e.g., 0.7 for creative, 0 for factual]
-- Safety: [e.g., System prompt includes "do not provide medical advice"]
-
-**Example Prompt:**
-```
-System: You are an expert assistant for [domain]. 
-You help users by [specific task]. 
-Always cite sources when using retrieved information.
-Never provide [forbidden content].
-
-Context from knowledge base:
-{retrieved_chunks}
-
-User question: {user_query}
-
-Answer:
-```
-
-**Retrieval Strategy (if applicable):**
-- Chunking: [e.g., 500 tokens with 50 token overlap]
-- Embedding model: [e.g., text-embedding-3-small]
-- Similarity metric: [e.g., cosine similarity]
-- Top-k: [e.g., 5 most relevant chunks]
-- Reranking: [Yes/No, and method]
-
----
-
-### Third-Party Services & APIs
-
-| Service | Purpose | Cost | Rate Limits |
-|---------|---------|------|-------------|
-| OpenAI API | Text generation | ~$0.03/1K tokens | 10K RPM tier 1 |
-| [Service 2] | [Purpose] | [Cost] | [Limits] |
-| [Service 3] | [Purpose] | [Cost] | [Limits] |
-
-**API Keys & Secrets:**
-- [ ] All keys stored in `.env` (not committed to git)
-- [ ] `.env.example` provided for team members
-- [ ] Keys rotated if accidentally exposed
-
----
-
-## 5. Risk Assessment
+	@@ -282,101 +270,109 @@ Answer:
 
 ### Technical Risks
 
-**Risk #1: [e.g., API Rate Limits]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
-- Mitigation:
-  - [Strategy 1: e.g., Implement request queuing]
-  - [Strategy 2: e.g., Add fallback to cached responses]
-  - [Strategy 3: e.g., Monitor usage and alert at 80% threshold]
+**Risk #1: API Rate Limits**
+- Likelihood: Medium
+- Impact: Medium/Low
+- Mitigation: Cache outputs, retry logic
 
-**Risk #2: [e.g., LLM Output Quality]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #2: LLM output inconsistency**
+- Likelihood: High
+- Impact: High
 - Mitigation:
-  - [Strategy 1]
-  - [Strategy 2]
+  - Use strict prompt templates
+  - Few-shot examples
 
-**Risk #3: [e.g., Response Latency]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
-- Mitigation:
-  - [Strategy 1]
-  - [Strategy 2]
+**Risk #3: Response Latency**
+- Likelihood: Medium
+- Impact: Medium
+- Mitigation: Stream responses, pre-process templates
 
 ---
 
 ### Product Risks
 
-**Risk #1: [e.g., Users Don't Find It Useful]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #1: Users don’t find tool useful**
+- Likelihood: Medium
+- Impact: High
 - Mitigation:
-  - [Strategy 1: e.g., User interviews in Week 3]
-  - [Strategy 2: e.g., Prototype testing before building full app]
+  - Early user testing
+  - Iterative feedback
 
-**Risk #2: [e.g., Scope Creep]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
-- Mitigation:
-  - [Strategy 1: e.g., Strict feature freeze after Week 8]
-  - [Strategy 2: e.g., Weekly scope reviews]
+**Risk #2: Scope Creep**
+- Likelihood: Medium
+- Impact: Medium
+- Mitigation: Feature freeze after Week 8
 
 ---
 
 ### Team Risks
 
-**Risk #1: [e.g., Unequal Workload Distribution]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #1: Unequal Workload Distribution**
+- Likelihood: Medium
+- Impact: High
 - Mitigation:
-  - [Strategy 1: e.g., Weekly standup with task review]
-  - [Strategy 2: e.g., Track contributions in GitHub + peer evaluations]
+  - Weekly standup with clear task ownership and progress updates.
+  - Track contributions via GitHub (issues, PRs, commits) and use lightweight peer evaluations mid-project.
+  - Keep a shared Kanban board (GitHub Projects / Trello) so work is visible.
 
-**Risk #2: [e.g., Team Member Availability]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #2: Team Member Availability (scheduling conflicts / illness)**
+- Likelihood: Medium
+- Impact: Medium
 - Mitigation:
-  - [Strategy 1: e.g., Buffer time in schedule]
-  - [Strategy 2: e.g., Cross-training on critical components]
+  - Maintain a shared calendar and agree on core overlap hours.
+  - Cross-train at least two members on each critical component (frontend, backend, prompt engineering).
+  - Maintain short written runbooks for critical tasks (deploy, test, restore).
+
+**Risk #3: Skill Gaps for Critical Tech (e.g., FastAPI, PDF export, prompt engineering)**
+- Likelihood: Medium
+- Impact: High
+- Mitigation:
+  - Early learning sprints and pair-programming sessions (Weeks 1–3).
+  - Assign one “owner + backup” per component; share short how-to docs in repo.
+  - Use third-party libraries (e.g., pdfkit/reportlab) to reduce low-level implementation risk.
+
 
 ---
 
 ### Safety & Ethical Risks
 
-**Risk #1: [e.g., Prompt Injection Attacks]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #1: Prompt Injection / Malicious Input**
+- Likelihood: Medium
+- Impact: High
 - Mitigation:
-  - [Strategy 1: e.g., Input sanitization]
-  - [Strategy 2: e.g., Separate user content from system prompts]
+  - Sanitize and escape user-provided job descriptions and uploads.
+  - Keep system prompts immutable and separate from user content; never concatenate raw user content into system-level instructions.
+  - Rate-limit and monitor unusual request patterns.
 
-**Risk #2: [e.g., Bias in AI Outputs]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #2: Bias in AI Outputs (gender, ethnicity, age bias in phrasing/role recommendation)**
+- Likelihood: Medium
+- Impact: High
 - Mitigation:
-  - [Strategy 1: e.g., Test with diverse user inputs]
-  - [Strategy 2: e.g., Include disclaimer about AI limitations]
+  - Test outputs with diverse synthetic and real input profiles to detect biased phrasing.
+  - Add post-generation filters and neutral phrasing templates; surface flagged suggestions to users rather than auto-applying.
+  - Provide a clear disclaimer and editing UI so users can review and correct outputs.
 
-**Risk #3: [e.g., Privacy/Data Leakage]**
-- Likelihood: [High/Medium/Low]
-- Impact: [High/Medium/Low]
+**Risk #3: Privacy / Data Leakage (storing personal PII unintentionally)**
+- Likelihood: Low
+- Impact: High
 - Mitigation:
-  - [Strategy 1: e.g., Don't store PII]
-  - [Strategy 2: e.g., Anonymize all user data]
+  - Do not store raw PII by default. If storing is required (e.g., user wants to save CVs), encrypt stored CVs and log minimal metadata.
+  - Provide clear consent UI for any saved data and an easy delete flow.
+  - Anonymize analytics and rotate/secure API keys and secrets.
 
 ---
 
 ### Contingency Plans
 
 **If our primary model is unavailable:**
-- [Fallback plan, e.g., switch to GPT-3.5-turbo with degraded quality notice]
+- Switch to a lower-cost fallback (e.g., GPT-3.5-turbo) with a displayed “degraded quality” notice. Cache recent successful prompts/responses to reduce immediate dependence.
 
 **If we can't recruit enough user testers:**
-- [Alternative plan, e.g., synthetic evaluation with golden dataset]
+- Use synthetic evaluation with a curated golden dataset of job descriptions + candidate profiles and run internal heuristic checks and peer reviews.
 
 **If we fall behind schedule:**
-- [Plan to cut scope, e.g., drop features X and Y, focus on core flow]
+- Cut lower-priority features in this order: (1) multi-template design gallery, (2) version history UI, (3) advanced ATS-scoring analytics. Keep core flow: profile input → tailored CV generation → PDF export.
+
 
 ---
 
-## 6. Research Plan
-
-### What We Need to Learn
-
-**Technical Questions:**
-1. [e.g., How do we implement streaming responses in FastAPI?]
-   - Resources: [e.g., FastAPI docs, LangChain streaming examples]
-   - Timeline: Week 3
-
-2. [e.g., What's the best way to chunk documents for RAG?]
-   - Resources: [e.g., LlamaIndex docs, research papers on RAG]
-   - Timeline: Week 5
-
-3. [e.g., How do we prevent prompt injection?]
-   - Resources: [e.g., OWASP Top 10 for LLMs, prompt engineering guides]
-   - Timeline: Week 6
-
-**Product Questions:**
-1. [e.g., Do users prefer concise or detailed responses?]
-   - Method: [e.g., A/B test in Week 7]
-   - Timeline: Week 7-8
-
-2. [e.g., What error messages are most helpful?]
-   - Method: [e.g., User observation during testing]
-   - Timeline: Week 9
-
----
-
-### Experiments & Prototypes
-
-**Week 3-4: Proof of Concept**
-- Goal: [e.g., Can we get a basic query → LLM → response working?]
-- Success criteria: [e.g., End-to-end flow works with <5s latency]
-- What we'll learn: [e.g., Basic API integration, prompt patterns]
-
-**Week 5-6: Retrieval Integration**
-- Goal: [e.g., Add RAG with citations]
-- Success criteria: [e.g., Responses include relevant context 80% of time]
-- What we'll learn: [e.g., Chunking strategies, embedding quality]
-
-**Week 7-8: User Testing Round 1**
-- Goal: [e.g., Get feedback on core flow]
-- Success criteria: [e.g., 3+ users complete test tasks]
-- What we'll learn: [e.g., UX pain points, feature priorities]
-
-**Week 11-12: Evaluation & Optimization**
-- Goal: [e.g., Reduce cost and latency]
-- Success criteria: [e.g., Hit target <$0.10 per query, <3s latency]
-- What we'll learn: [e.g., Caching strategies, prompt optimization]
-
----
-
-### Literature & Resources
-
-**Key Papers/Articles to Review:**
-- [Paper 1 on RAG evaluation]
-- [Blog post on prompt engineering]
-- [Documentation on safety best practices]
-
-**Tutorials/Examples to Follow:**
-- [LangChain RAG tutorial]
-- [OpenAI cookbook example on function calling]
-- [FastAPI streaming example]
-
----
-
-## 7. User Study Plan
-
-### Research Ethics
+	@@ -452,29 +448,29 @@ Answer:
 
 **Do we need IRB approval?**
 - [ ] Yes - we're collecting sensitive data or working with minors
-- [ ] No - but we've completed the IRB Light Checklist (see `docs/irb-checklist.md`)
+- [X] No - but we've completed the IRB Light Checklist (see `docs/irb-checklist.md`)
 
 **Data we'll collect:**
-- [Type of data, e.g., Task completion times, user feedback, screen recordings]
-- [How long we'll store it, e.g., Until end of semester, then delete]
-- [Who has access, e.g., Only team members]
+- Task completion times, task success/failure, post-task surveys (Likert), optional screen recordings (with consent), anonymized system logs (latency/errors).
+- Storage duration: until end of semester + 3 months for analysis, then deleted.
+- Access: Only team members; raw data stored in password-protected folder.
 
 **User consent:**
-- [ ] We've adapted the course consent template
-- [ ] Users can withdraw at any time
-- [ ] We've explained data usage clearly
+- [X] We've adapted the course consent template
+- [X] Users can withdraw at any time
+- [X] We've explained data usage clearly
 
 ---
 
 ### Recruitment Plan
 
 **Target participants:**
-- Number: [e.g., 5-8 users per testing round]
-- Criteria: [e.g., Must be students, no prior experience with similar tools]
-- Where we'll find them: [e.g., CS department, study groups, social media]
+- Number: 5–8 users per testing round
+- Criteria: Students or recent grads actively applying for jobs; no prior experience required
+- Where: Course announcements, student Slack groups, campus mailing lists
 
 **Compensation:**
-- [e.g., Coffee gift card, pizza, acknowledgment in final presentation]
+- Coffee
 
 **Timeline:**
 - Week 3-4: Recruit first batch (3-5 users)
-- Week 7-8: User testing round 1
-- Week 11-12: User testing round 2
-- Week 14: Final feedback session
-
----
-
-### Testing Protocol
-
+	@@ -489,72 +485,64 @@ Answer:
 **Session Structure (45-60 minutes):**
 
 1. **Introduction (5 min)**
-   - Explain study purpose
-   - Get consent
-   - Explain think-aloud protocol
+   - Explain study purpose and get consent; describe think-aloud protocol.
 
 2. **Background Questions (5 min)**
-   - [Question about user's current workflow]
-   - [Question about pain points]
-   - [Question about expectations]
+   - Current CV workflow, frequency of updates, biggest pain points.
 
-3. **Task 1: [Specific task] (10 min)**
-   - Scenario: [e.g., "You need to find information about..."]
-   - Success: [e.g., User completes task with AI assistant]
-   - Observe: [e.g., Time, errors, confusion points]
+3. **Task 1: Create a baseline CV from profile (10 min)**
+   - Scenario: "Produce a professional CV using the profile we uploaded."
+   - Success: User is satisfied with structure and primary wording (self-reported).
+   - Observe: Time, edits made, confusion points.
 
-4. **Task 2: [Specific task] (10 min)**
-   - [Similar structure]
+4. **Task 2: Tailor CV to a provided job description (10 min)**
+   - Scenario: "Tailor the CV to this specific job posting using keyword optimization."
+   - Success: User identifies appropriate role-specific bullets present.
+   - Observe: Time, perceived relevance.
 
-5. **Task 3: [Specific task] (10 min)**
-   - [Similar structure]
+5. **Task 3: Export and review (10 min)**
+   - Scenario: "Export as PDF and make manual edits if necessary."
+   - Success: User completes export and can make one key edit quickly.
+   - Observe: Export issues, formatting complaints.
 
 6. **Post-Task Questions (10 min)**
-   - What worked well?
-   - What was confusing?
-   - What would you change?
-   - Would you use this? Why/why not?
-   - Rate overall experience (1-5 scale)
+   - What worked? What was confusing? Would you use this? Rate 1–5.
 
 7. **Wrap-up (5 min)**
-   - Thank them
-   - Provide compensation
-   - Ask for follow-up permission
+   - Thank participant, provide compensation, ask permission for follow-up.
 
 ---
 
 ### Data Collection Methods
 
-- [ ] Screen recording (with permission)
-- [ ] Observer notes
-- [ ] Task completion metrics (time, success rate)
-- [ ] Post-session survey
-- [ ] System logs (latency, errors, costs)
+- [X] Screen recording (with permission)
+- [X] Observer notes
+- [X] Task completion metrics (time, success rate)
+- [X] Post-session survey
+- [X] System logs (latency, errors, costs)
 
 **Where data will be stored:**
-- Raw notes/recordings: [e.g., Password-protected Google Drive folder]
-- Analysis: [e.g., Anonymized summary in `docs/user-research/`]
-- No identifiable data in public repo
+- Raw notes/recordings: password-protected Google Drive (team only)
+- Analysis: anonymized summaries in `docs/user-research/`
+- No identifiable data will be committed to public repo
 
 ---
 
 ### Analysis Plan
 
 **Quantitative:**
-- Task completion rate
-- Average time per task
-- Error rate
-- User satisfaction scores
+- Task completion rate and average time per task
+- Error rate (failed exports, generation failures)
+- User satisfaction scores (1–5)
 
 **Qualitative:**
-- Thematic analysis of user feedback
-- Identification of common pain points
-- Prioritization of improvements
+- Thematic coding of comments to identify common UX or content issues
+- Prioritize fixes based on frequency and impact
 
 **Deliverables:**
-- User research summary (Week 8, Week 12)
+- User research summary (Week 8 and Week 12)
 - Updated feature priority list
-- Input for final case study
+- Input for final case study and demo
 
 ---
 
-## 8. Project Timeline & Milestones
-
-### Weekly Breakdown
-
-| Week | Focus | Deliverables | Owner |
-|------|-------|-------------|-------|
-| 1 | Setup | Team formation, initial ideas | All |
-| 2 | Planning | **This proposal**, team contract, dev environment | All |
-| 3 | Core Flow | Basic query → LLM → response | [Name] |
-| 4 | Design Review | Architecture diagrams, eval plan | All |
-| 5 | Retrieval | RAG integration, Week 5 quiz | [Name] |
-| 6 | Function Calling | Add tool use, structured outputs | [Name] |
-| 7 | User Testing 1 | First user feedback round | All |
-| 8 | Iteration | Implement feedback, optimize | All |
-| 9 | **Midterm Exam** | Study week | All |
-| 10 | Optimization | Caching, batching, cost reduction | [Name] |
-| 11 | Safety Audit | Red teaming, bias testing | All |
-| 12 | Evaluation | Golden set, regression tests | [Name] |
-| 13 | Production | CI/CD, monitoring, portability | [Name] |
-| 14 | Polish | User testing round 2, final fixes | All |
-| 15 | **Final Demo** | Presentation, video, case study | All |
-
----
-
+	@@ -585,7 +573,7 @@ Answer:
 ### Major Milestones
 
 **✅ Milestone 1: Proposal (Week 2)** - YOU ARE HERE
-- Submission: [Date]
+- Submission: 17.10.2025
 - Points: 10
 
 **🎯 Milestone 2: Design Review (Week 4)**
-- Submission: [Date]
-- Points: 5
-- What's due: Updated architecture, evaluation plan, backlog, token usage plan
-
-**🎯 Milestone 3: Safety & Evaluation Audit (Week 11)**
-- Submission: [Date]
-- Points: 3
-- What's due: Red team results, bias checks, golden set, error taxonomy, telemetry plan
-
-**🎯 Milestone 4: Final Demo (Week 15)**
-- Submission: [Date]
-- Points: 7
-- What's due: Working product, CI/CD, public README, demo video, case study
+	@@ -615,17 +603,18 @@ Answer:
 
 ---
 
-### Dependency Map
-
-**What must happen before what:**
-- ⚠️ Basic API integration (Week 3) blocks RAG (Week 5)
-- ⚠️ Core flow (Week 3) blocks user testing (Week 7)
-- ⚠️ Evaluation plan (Week 4) blocks golden set creation (Week 11)
-- ⚠️ Working product (Week 10) blocks user testing round 2 (Week 14)
-
----
 
 ### Backup Plan
 
 **If we fall behind, we'll cut (in this order):**
-1. [Secondary feature 1]
-2. [Nice-to-have feature 2]
-3. [Optimization work beyond basics]
+1. Multi-template design gallery (visual polish)
+2. Version history / CV comparison UI
+3. Advanced ATS scoring dashboard
 
 **Core features we won't cut:**
-- [Essential feature 1]
-- [Essential feature 2]
-- [Essential feature 3]
+- Profile input → tailored CV generation
+- Job-description tailoring / keyword mapping
+- PDF export functionality
 
 ---
 
-## 9. Budget & Resources
-
-### Cost Estimates
-
-**AI API Costs:**
-- Development & testing: [e.g., $50/month × 3 months = $150]
-- User testing: [e.g., $30 for ~300 test sessions]
-- Safety margin: [e.g., $50]
-- **Total AI costs: ~$230**
-
-**Other Services:**
-- [e.g., Vector DB hosting: $0 (free tier)]
-- [e.g., App hosting: $0 (free tier)]
-- [e.g., Domain name: $0 (use .vercel.app or .netlify.app)]
-
-**User compensation:**
-- [e.g., 8 users × $10 gift card = $80]
-
-**TOTAL PROJECT COST: ~$310**
-
-**Who pays:**
-- [e.g., Split equally: ~$103 per team member]
-- OR [e.g., Apply for course/department funding]
-
----
-
-### Resource Constraints
-
-**Time:**
-- Total: ~15 weeks
-- Accounting for midterms, finals: ~12 effective weeks
-- Team capacity: [X] hours/week × [Y] team members = [Z] total hours
-
-**Compute:**
-- Development machines: [e.g., Laptops sufficient for most work]
-- GPU needs: [e.g., None - using cloud APIs]
-- Storage: [e.g., <1GB for database, fits free tier]
-
-**Access:**
-- API keys: [e.g., Each team member has own OpenAI account]
-- Shared resources: [e.g., Team account for vector DB]
-
----
-
-## 10. Appendix
+	@@ -677,8 +666,11 @@ Answer:
 
 ### Team Contract Summary
 
-[Brief 1-2 sentence summary linking to full contract]
-See [docs/team-contract.md](./team-contract.md) for full details.
+Our team, **Synapse Squad**, has established a detailed team contract outlining our mission, communication plan, roles, responsibilities, conflict resolution process, and quality standards.  
+We are committed to maintaining accountability, collaboration, and professionalism throughout the development of our AI-Powered CV Generator Assistant project.
+
+➡️ See the full contract here: [docs/team-contract.md](./docs/team-contract.md)
+
 
 ---
 
-### References
-
-[List any papers, articles, or resources you referenced in this proposal]
-
-1. [Reference 1]
-2. [Reference 2]
-3. [Reference 3]
-
----
+	@@ -694,11 +686,11 @@ See [docs/team-contract.md](./team-contract.md) for full details.
 
 ### Revision History
 
-| Date | Author | Changes |
-|------|--------|---------|
-| [Date] | [Name] | Initial draft |
-| [Date] | [Name] | Added architecture diagram |
-| [Date] | All | Final review and approval |
+|    Date    |     Author     |    Changes    |
+|------------|----------------|---------------|
+| 17.10.2025 | Ana Maisuradze | Initial draft |
+| [Date] | [Name] | Added architecture diagram|
+| [Date] | All | Final review and approval    |
 
 ---
-
-## Instructor Use Only
-
-**Grade: _____ / 10**
-
-| Component | Points | Feedback |
-|-----------|--------|----------|
-| Problem Clarity | __/2 | |
-| Technical Feasibility | __/2 | |
-| Success Criteria | __/1 | |
-| Risk Assessment | __/1 | |
-| Research & User Plan | __/1.5 | |
-| Team Contract | __/1.5 | |
-| Presentation Quality | __/1 | |
-
-**Overall Feedback:**
