@@ -104,7 +104,6 @@ These core features can be built and evaluated within a semester while clearly s
 
 ---
 
-	@@ -282,101 +270,109 @@ Answer:
 
 ### Technical Risks
 
@@ -214,7 +213,6 @@ These core features can be built and evaluated within a semester while clearly s
 
 ---
 
-	@@ -452,29 +448,29 @@ Answer:
 
 **Do we need IRB approval?**
 - [ ] Yes - we're collecting sensitive data or working with minors
@@ -244,7 +242,6 @@ These core features can be built and evaluated within a semester while clearly s
 
 **Timeline:**
 - Week 3-4: Recruit first batch (3-5 users)
-	@@ -489,72 +485,64 @@ Answer:
 **Session Structure (45-60 minutes):**
 
 1. **Introduction (5 min)**
@@ -309,7 +306,6 @@ These core features can be built and evaluated within a semester while clearly s
 
 ---
 
-	@@ -585,7 +573,7 @@ Answer:
 ### Major Milestones
 
 **✅ Milestone 1: Proposal (Week 2)** - YOU ARE HERE
@@ -317,7 +313,6 @@ These core features can be built and evaluated within a semester while clearly s
 - Points: 10
 
 **🎯 Milestone 2: Design Review (Week 4)**
-	@@ -615,17 +603,18 @@ Answer:
 
 ---
 
@@ -336,7 +331,6 @@ These core features can be built and evaluated within a semester while clearly s
 
 ---
 
-	@@ -677,8 +666,11 @@ Answer:
 
 ### Team Contract Summary
 
@@ -348,7 +342,6 @@ We are committed to maintaining accountability, collaboration, and professionali
 
 ---
 
-	@@ -694,11 +686,11 @@ See [docs/team-contract.md](./team-contract.md) for full details.
 
 ### Revision History
 
