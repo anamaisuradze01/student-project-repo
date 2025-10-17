@@ -293,7 +293,7 @@ Signature: Anano Kutchava  Date: 10/10/25
 Signature: Ana Maisuradze  Date: 10/10/25
 
 **Lekso Potskhverashvili** 
-Signature: ___________________________  Date: _______________
+Signature: Lekso Potskhverashvili  Date: 15/10/25
 
 ---
 
